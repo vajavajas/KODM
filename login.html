@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>Login Page</title>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+        <img src="3f21445e-69e0-42cf-87a5-3f76e293d34d.png" alt="KODM Logo" class="logo-img">
+        </div>
+        <nav class="navigation">
+            <a href="index.html">Home</a>
+            <a href="aboutus.html">About us</a>
+            <a href="contact.html">Contact</a>
+            <a href="subs.html">Subscriptions</a>
+            <a href="samples.html">Samples</a>
+            <a href="login.html">
+            <button class="login-popup">Login</button>
+            </a>
+        </nav>
+    </header>
+
+    <div class="w">
+        <span class="icon-class">X</span>
+       <div class="boxlogin l">
+        <h2>Login</h2>
+        <form action="login.php" method="post">
+            <div class="inputbox">
+                <span class="icon"></span>
+                <input type="email" name="email" required />
+                <label>Email</label>
+            </div>
+            <div class="inputbox">
+                <span class="icon"></span>
+                <input type="password" name="password" required />
+                <label>Password</label>
+            </div>
+            <div class="rememberforgot">
+                <label><input type="checkbox">Remember me</label>
+                <a href="#">Forgot Password</a>
+            </div>
+            <button type="submit" class="btn">Login</button>
+            <div class="login-register">
+                <p>Don't have an account? <a href="registration.html" class="register">Register</a></p>
+            </div>
+        </form>
+       </div>       
+    </div>
+ 
+</body>
+</html>
